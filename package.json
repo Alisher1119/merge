@@ -3,6 +3,10 @@
   "version": "1.1.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Alisher1119/merge"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
