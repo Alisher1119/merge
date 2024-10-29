@@ -97,8 +97,12 @@ console.log(merged);
 ```
 
 ## Installation
-To use these functions in your project, copy the code into your TypeScript file or install this package if it's published to a package registry.
 
+You can install this package via npm:
+
+```bash
+npm install merge-by-key
+```
 ## Testing
 You can set up tests using Jest to ensure that the functions work as expected. Here’s an example of how to write tests for these functions:
 
