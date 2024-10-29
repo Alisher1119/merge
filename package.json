@@ -1,0 +1,31 @@
+{
+  "name": "merge-by-key",
+  "version": "1.1.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "typescript",
+    "merge",
+    "merge-by",
+    "merge-object-array",
+    "linear-merge",
+    "linear-merge-with-custom-function"
+  ],
+  "author": "Alisher1119",
+  "license": "ISC",
+  "description": "This package is used for merging object arrays.",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
