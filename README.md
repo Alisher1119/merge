@@ -1,14 +1,14 @@
 # Object merge utility
 
 This repository contains two utility functions, `mergeBy` and `linearMerge`, for merging objects in an array based on a
-specified key. These functions can be particularly useful for consolidating data from various sources or handling data
+specified key or deep key. These functions can be particularly useful for consolidating data from various sources or handling data
 transformation in applications.
 
 ## Functions
 
 ### `mergeBy`
 
-Merges objects in an array based on a specified key. If two objects have the same key value, their properties are
+Merges objects in an array based on a specified key or deep key. If two objects have the same key value, their properties are
 combined.
 
 #### Signature
@@ -44,7 +44,7 @@ console.log(merged);
 
 ### `linearMerge`
 
-Linear merges objects in an array based on a specified key. Compares only with the next item if exists. If two objects
+Linear merges objects in an array based on a specified key or deep key. Compares only with the next item if exists. If two objects
 have the same key value, their properties are combined using Object.assign or with mergeFn.
 
 ```typescript
